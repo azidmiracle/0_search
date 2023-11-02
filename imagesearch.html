@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div  class="flexrow flexspacebetween">
+               
+              <div >
+                <button onclick="window.location.href='./index.html';">Back to Google Search</button>
+            </div>
+          <div >
+            <button onclick="window.location.href='./advancesearch.html';">Advanced Search</button>
+          </div>
+            </div>
+            <div class="flexcolumn center" >  
+                <div >
+                    <img src="./images/google-logo.png" alt="Google Search" class="googleimage">
+                </div>
+                    
+                    <div style="width: 300px;position: relative">
+                        <span style="position: absolute;
+                        right:0px;
+                        bottom: 5px;
+                        z-index: -1;
+                        color: #4285f4;
+                        font-weight: bolder;
+                        ">Images</span>
+                    </div>
+                   
+            </div>
+            <div >
+                <form action="http://images.google.com/images" class="center flexcolumn">
+                   
+                    <div class="grid-container-search flexcolumn">
+                        <div>
+                            <!-- <input type="image"  src="./images/search.png" class="searchimage"> -->
+                           <img src="./images/search.png" alt="Google Search" class="searchimage">
+                        </div>
+                        <div>
+                            <input type="text" name="q" class="searchboxitem">
+                            <!-- <input type="text" name="q" placeholder="&#x1F50D" class="searchboxx"> -->
+                        </div>
+                       
+                        <div class="grid-container-searchvoiceimageicon">
+                            <div >
+                                <input type="reset"  src="./images/close.png" >
+                                 
+                                <div style="
+                                width: 30px;
+                               border-right: 1px  solid green;"></div> 
+                            </div>
+                            <div>
+                                <img src="./images/voice-search.png" alt="Google Search" class="searchimage">
+                                <img src="./images/image-search.png" alt="Google Search" class="searchimage">
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
+                    
+                    <div >
+                        <input type="submit" value="Google Search" class="searchbutton">
+                        <input type="submit" value="I'm Feeling Lucky" class="searchbutton">
+                    </div>
+                   
+                </form>
+            </div>
+          
+        </div>
+
+       
+    </body>
+</html>

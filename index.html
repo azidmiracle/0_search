@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <div class="grid-container">
+            <div  class="grid-container-menu flexrow flexend">
+                <div >
+                    <!-- <button onclick="window.location.href='./imagesearch.html';">Image Search</button> -->
+                    <a href="./imagesearch.html">Image Search</a>
+                </div>
+              <div >
+                <!-- <button onclick="window.location.href='./advancesearch.html';">Advanced Search</button> -->
+                <a href="./advancesearch.html">Advanced Search</a>
+              </div>
+              
+            </div>
+            <div class="center">
+                <img src="./images/google-logo.png" alt="Google Search" class="googleimage">
+            </div>
+            <div >
+                <!-- <form action="https://www.google.com/search" class="center flexcolumn">
+                    <input type="text" name="q" placeholder="&#x1F50D" class="searchbox">
+                    <div>
+                        <input type="submit" value="Google Search" class="searchbutton">
+                        <input type="submit" value="I'm Feeling Lucky" class="searchbutton">
+                    </div>
+                   
+                </form> -->
+                <form action="https://www.google.com/search" class="center flexcolumn">
+                   
+                    <div class="grid-container-search flexcolumn">
+                        <div>
+                            <!-- <input type="image"  src="./images/search.png" class="searchimage"> -->
+                           <img src="./images/search.png" alt="Google Search" class="searchimage">
+                        </div>
+                        <div>
+                            <input type="text" name="q" class="searchboxitem">
+                            <!-- <input type="text" name="q" placeholder="&#x1F50D" class="searchboxx"> -->
+                        </div>
+                       
+                        <div class="grid-container-tempol-50">
+                            <div class="grid-container-tempol-50" style="position: relative">
+                                <!-- <input type="reset"  style="background-image: url('./images/close.png');" name="X"> -->
+                                <div  style="
+                                position: absolute;
+                                right: 15px;
+                                z-index: 1;
+                                ;">
+                                    <button type="reset" class="button-solid" alt="Clear"><img src="./images/close.png"  class="searchimage button-solid"></button>
+                              
+                                </div>
+                               
+                                    <div style="
+                                   position: absolute;
+                                   right: 10px;
+                                   z-index: 2;
+                                    height: 30px;
+                                   border-left:  1px solid #dadce0;"></div> 
+
+
+                               
+                            </div>
+                            <div class="grid-container-tempol-50">
+                                <img src="./images/voice-search.png" alt="Voice Search" class="searchimage button-solid">
+                                <img src="./images/image-search.png" alt="Image Search" class="searchimage button-solid">
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
+                    
+                    <div >
+                        <input type="submit" value="Google Search" class="searchbutton">
+                        <input type="submit" value="I'm Feeling Lucky" class="searchbutton">
+                    </div>
+                   
+                </form>
+            </div>
+          
+        </div>
+
+       
+    </body>
+</html>
